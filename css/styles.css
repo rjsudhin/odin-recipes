@@ -51,7 +51,7 @@ li a {
 /* mainn section started */
 
 main {
-    background-color: #e4d8d8;
+    background-color: #252525;
     width: 100%;
 }
 
@@ -77,12 +77,12 @@ main {
 }
 
 li img {
-    width: 350px;
-    height: 350px;
-    border-radius: 2em;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
     margin-left: -50px;
     object-fit: cover;
-    border: 2px solid orange;
+    
 }
 
 
@@ -94,7 +94,7 @@ li img, li {
 
 /* footer section */
 footer {
-    background-color: #252525;
+    background-color: #928686;
     padding: 50px;
     text-align: center;
     color: white;
