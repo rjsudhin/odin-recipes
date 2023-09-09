@@ -11,8 +11,8 @@ body {
 
 header {
     width: 100%;
-    background-color: #252525;
-    color: rgb(231, 154, 10);
+    background-color: orange;
+    color: #252525;
     display: flex;
     justify-content: space-between;
     padding: 40px 20px;
@@ -29,8 +29,8 @@ header {
 
 .nav-bar li a:hover {
     text-decoration: underline;
-    background-color: #eb811e;
-    color: #252525;
+    background-color: #252525;
+    color: orange;
     padding: 5px;
     border-radius: 1em;
     font-weight: bold;
@@ -43,7 +43,7 @@ li {
 }
 
 li a {
-    color: rgb(231, 154, 10);
+    color: #252525;
     text-decoration: none;
     font-weight: bold;
 }
