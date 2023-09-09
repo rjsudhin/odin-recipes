@@ -29,7 +29,9 @@ header a {
 body h1 {
     text-align: center;
     color: orange;
-    text-transform: uppercase;
+    font-family: 'Franklin Gothic Mecursivedium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: orange;
 }
 
 main {
@@ -65,6 +67,11 @@ section {
     border-radius: 10px;
     text-align: center;
 
+}
+
+h3, h2 {
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
