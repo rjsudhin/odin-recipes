@@ -56,9 +56,10 @@ main {
 
 section {
     width: 400px;
-    height: auto;
+    height: 400px;
     background-color: #252525;
     color: #fff;
+    overflow: scroll;
     text-align: center;
 }
 
