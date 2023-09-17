@@ -74,12 +74,16 @@ section span {
 
 section ol li, ul li {
     padding: 1em;
+    list-style: none;
 }
 
 section img {
     width: 250px;
     height: auto;
     border-radius: 25px;
+}
+section p {
+    padding: 1em;
 }
 
 #dp-logo {
@@ -90,3 +94,13 @@ section img {
 }
 
 /* main section */
+
+/* footer */ 
+footer {
+    background-color: orange;
+    text-align: center;
+    height: 40vh;
+    padding: 5em;
+}
+/* footer */ 
+
