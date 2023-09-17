@@ -8,7 +8,7 @@
 header {
     display: flex;
     justify-content: center;
-    padding: 4em 0;
+    padding: 3em 0;
     background-color: orange;
     color: #252525;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
@@ -27,7 +27,7 @@ header {
 }
 
 .header-items h1 {
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .header-items .nav-bar {
@@ -39,11 +39,59 @@ header {
     display: block;
 }
 
+
+li a:hover {
+    background-color: #252525;
+    color: orange;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
 li a {
     color: #252525;
     text-decoration: none;
     margin: 0 3px;
     font-size: 15px;
+}
+
+
+/* header section end */
+
+
+/* main section */
+
+main {
+    background-color: #252525;
+    display: flex;
+    padding: 6em 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+#recipe {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#recipe ul li {
+    display: block;
+}
+
+#recipe ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
 }
 
 
