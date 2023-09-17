@@ -35,3 +35,58 @@ header {
 }
 
 /* header section */
+
+
+/* main section */
+main {
+    display: flex;
+    padding: 5em 2em;
+    justify-content: center;
+    background-color: #252525;
+}
+
+.main-section {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+section {
+    width: 400px;
+    height: auto;
+    background-color: #252525;
+    color: #fff;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section span {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 2px;
+}
+
+section ol li, ul li {
+    padding: 1em;
+}
+
+section img {
+    width: 250px;
+    height: auto;
+    border-radius: 25px;
+}
+
+#dp-logo {
+    display: flex;
+    padding: 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main section */
