@@ -92,6 +92,7 @@ section p {
     padding: 3em;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 /* main section */
