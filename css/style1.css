@@ -19,5 +19,19 @@ header {
     width: 90%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+.header-sec a {
+    color: #252525;
+    text-decoration: none;
+}
+
+.header-sec a:hover {
+    background-color: #252525;
+    padding: 10px;
+    border-radius: 25px;
+    color: orange;
+}
+
 /* header section */
