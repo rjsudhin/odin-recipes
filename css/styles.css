@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
 }
 
 /*  header section */
@@ -11,7 +13,6 @@ header {
     padding: 3em 0;
     background-color: orange;
     color: #252525;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 
 .header-body {
@@ -92,6 +93,35 @@ main {
     width: 250px;
     height: 250px;
     border-radius: 30px;
+}
+
+/* main codes aboove */
+
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding: 2em 0;
+}
+
+.footer-items {
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-items a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-items a:hover {
+    color: orange;
+    background-color: #252525;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 
