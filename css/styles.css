@@ -124,6 +124,10 @@ footer .container .footer-items  {
 
 
 @media (max-width: 750px) {
+    img {
+        width: 190px;
+        height: 190px;
+    }
     .nav-bar .container {
         flex-direction: column;
     }
