@@ -8,22 +8,22 @@
     </head>
 
     <body>
-        <div class="nav-bar">
+        <div id="logo" class="nav-bar">
             <div class="container">
-                <div class="header-logo">Odin Recepeis</div>
+                <div class="header-logo">Odin Recipeis</div>
                 <div class="header-links">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Recepeis</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#home-section">Home</a></li>
+                        <li><a href="#center-side">Recipeis</a></li>
+                        <li><a href="#about-section">About</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         
-        <main class="main-content">
+        <main id="home-section" class="main-content">
             <div class="container">
-                <div class="recepi-menu">
+                <div class="recipe-menu">
                     <ul class="menu-items">
                         <li>
                             <a>
@@ -32,7 +32,7 @@
                         </li>
                         <li>
                             <a href="">
-                                <img src="./images/enchi.jpg" alt="chikken enchilad photo">
+                                <img id="center-side" src="./images/enchi.jpg" alt="chikken enchilad photo">
                             </a>
                         </li>
                         <li>
@@ -47,10 +47,13 @@
         </main>
 
         <footer>
-            <div class="footer-items">
-                <p>go back to <a href="#logo">Top</a></p>
-                <p>follow the recipes on <a href="https://www.theodinproject.com/" target="_blank" rel="nooppener noreferrer">The odin Project</a></p>
-                <p id="address">happy coding!.</p>
+            <div id="about-section" class="container">
+                <div class="footer-items">
+                    <p>Go back to <a href="#logo">Top</a></p>
+                    <p>follow the recipes on <a href="https://www.theodinproject.com/" target="_blank" rel="nooppener noreferrer">The odin Project</a></p>
+                    <p id="address">happy coding!.</p>
+                </div>
+                
             </div>
             
         </footer>
