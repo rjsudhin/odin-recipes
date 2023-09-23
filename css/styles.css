@@ -2,130 +2,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    scroll-behavior: smooth;
 }
 
-/*  header section */
-header {
-    display: flex;
-    justify-content: center;
-    padding: 3em 0;
-    background-color: orange;
-    color: #252525;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header-body {
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
+.container {
+    padding: 0 3em;
+    max-width: 1140px;
 }
 
-.header-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header-items h1 {
-    font-size: 30px;
-}
-
-.header-items .nav-bar {
-    display: flex;
-    align-items: flex-end;
-}
-
-.header-items .nav-bar li{
+ul {
     display: block;
+    list-style-type: none;
 }
 
-
-li a:hover {
-    background-color: #252525;
-    color: orange;
-    padding: 10px;
-    border-radius: 50px;
+ul li {
+    font-size: 16px;
 }
 
-
-li a {
+ul li a {
     color: #252525;
     text-decoration: none;
-    margin: 0 3px;
-    font-size: 15px;
-    font-family: monospace;
 }
 
+.nav-bar {
+    background-color: orange;
+    padding: 2em;
+    height: 60px;
+}
 
-/* header section end */
-
-
-/* main section */
-
-main {
-    background-color: #252525;
+.nav-bar .container {
+    height: 100%;
     display: flex;
-    padding: 6em 2em;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-#recipe {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-#recipe ul li {
-    display: block;
-}
-
-#recipe ul {
+.header-links ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     gap: 2em;
 }
-
-.pic {
-    width: 250px;
-    height: 200px;
-    border-radius: 30px;
-}
-
-/* main codes aboove */
-
-
-/* footer */
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: orange;
-    padding: 2em 0;
-    height: 50vh;
-}
-
-.footer-items {
-    text-align: center;
-    font-size: 14px;
-}
-
-.footer-items a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.footer-items a:hover {
-    color: orange;
-    background-color: #252525;
-    padding: 8px;
-    border-radius: 50px;
-}
-
 
 
 
