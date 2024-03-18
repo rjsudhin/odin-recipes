@@ -1,0 +1,29 @@
+/* fonts */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#header {
+   width: 100%;
+   height: 60px;
+   background-color: #2b2d42;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1em 2em;
+}
+
+#logo {
+   width: 45px;
+   height: auto;
+}
+
+h1 {
+   font-family: 'Madimi One', sans-serif;
+   font-size: 28px;
+   color: #eee;
+}
+
+
