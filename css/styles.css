@@ -24,6 +24,7 @@ body {
 #logo {
    width: 45px;
    height: auto;
+   cursor: pointer;
 }
 
 #logo:hover {
@@ -74,6 +75,13 @@ body {
 #main-section h1 {
    font-family: 'Madimi One', Impact;
    font-size: 30px;
+   color: #2b2d42;
+   text-decoration: underline;
+}
+
+.main-section p {
+   color: #2b2d42;
+   line-height: 30;
 }
 
 .main-btn {
