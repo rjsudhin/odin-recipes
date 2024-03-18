@@ -26,6 +26,10 @@ body {
    height: auto;
 }
 
+#logo:hover {
+   transform: rotate(30deg);
+}
+
 .title {
    font-family: 'Madimi One', sans-serif;
    font-size: 28px;
@@ -38,8 +42,12 @@ body {
    gap: 2em;
 }
 
-li {
+#navbar li {
    list-style: none;
+}
+
+#navbar li a:hover {
+   color: #6b6f70;
 }
 
 #navbar li a {
