@@ -3,6 +3,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   scroll-behavior: smooth;
 }
 
 body {
@@ -84,20 +85,12 @@ body {
    line-height: 30;
 }
 
-.main-btn {
-   border: 2px solid #d90429;
+.anchor-btn {
    padding: 10px 30px;
+   border: 2px solid #d90429;
+   font-size: 16px;
+   color: #2b2d42;
    border-radius: 1em;
-}
-
-.main-btn:hover {
-   background-color: #d90429;
-   color: #edf2f4;
-   cursor: pointer;
-}
-
-.main-btn:active {
-   padding: 10px 20px;
 }
 
 
