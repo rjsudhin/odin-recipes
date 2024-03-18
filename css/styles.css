@@ -93,6 +93,19 @@ body {
    border-radius: 1em;
 }
 
+/* recipe-section */
+#recipe-section {
+   width: 100%;
+   padding: 1em 2em;
+}
+
+a img {
+   width: 250px;
+   height: 150px;
+}
+
+
+
 
 
 
