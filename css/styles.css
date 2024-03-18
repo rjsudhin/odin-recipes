@@ -26,4 +26,20 @@ h1 {
    color: #eee;
 }
 
+#navbar {
+   display: flex;
+   align-items: center;
+   gap: 2em;
+}
+
+li {
+   list-style: none;
+}
+
+#navbar li a {
+   text-decoration: none;
+   color: #eee;
+   font-family: Poppins, sans-serif;
+}
+
 
