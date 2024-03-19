@@ -91,6 +91,12 @@ body {
    font-size: 16px;
    color: #2b2d42;
    border-radius: 1em;
+   cursor: pointer;
+}
+
+.anchor-btn:hover {
+   background-color: #d90429;
+   color: #eee;
 }
 
 /* recipe-section */
